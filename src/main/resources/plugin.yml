@@ -1,0 +1,20 @@
+name: JonkCORE
+version: 1.0.0
+main: dev.simplyamazing.jonkcore.JonkCORE
+api-version: 1.19
+authors: [ SimplyAmazing ]
+description: A core plugin containing useful utilities and objects for my other plugins.
+
+commands:
+    jcore:
+        description: The main command for JonkCORE.
+    chatroom:
+        description: ChatRoom management command.
+        aliases: [ cr ]
+    chat:
+        description: Change your currently focused chatroom.
+        aliases: [ c ]
+    say:
+        description: Speak a message into a chatroom.
+    sayhere:
+        description: Speak a message into your currently focused chat.
